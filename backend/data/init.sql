@@ -143,7 +143,7 @@ INSERT INTO Idiomas (nombre) VALUES ('Alemán'), ('Francés'), ('Italiano'), ('N
 INSERT INTO Premios (nombre) VALUES ('Mejor Película'), ('Mejor Director'), ('Mejor Actor'), ('Mejor Actriz'), ('Mejor Guión'), ('Mejor Fotografía'), ('Mejor Diseño de Producción'), ('Mejor Edición'), ('Mejor Banda Sonora'), ('Mejor Sonido');
 INSERT INTO Premios (id, nombre) VALUES (0, 'Desconocido');
 INSERT INTO Peliculas (titulo, descripcion, calificacion, duracion, fecha_estreno, titulo_original, id_clasificacion, imagen)
-    VALUES ('Sueño de fuga', 'El banquero Andy Dufresne es arrestado por matar a su esposa y amante. Tras una dura adaptación, intenta mejorar las condiciones de la prisión y dar esperanza a sus compañeros.', 9.3, 142, '1994-10-14', 'The Shawshank Redemption', 1, 'https://m.media-amazon.com/images/M/MV5BZmE2MTk5NmItNWViNC00MGJiLWI0ZDYtNzA0YjQ2MmVhODBmL2ltYWdlXkEyXkFqcGdeQXVyNjgwNjA3ODA@._V1_FMjpg_UX1012_.jpg');
+    VALUES ('Sueño de fuga', 'El banquero Andy Dufresne es arrestado por matar a su esposa y amante. Tras una dura adaptación, intenta mejorar las condiciones de la prisión y dar esperanza a sus compañeros.', 9.3, 142, '1994-10-14', 'The Shawshank Redemption', 1, 'https://play-lh.googleusercontent.com/tuiFnLcasRLkQsJGfqGg4ZgB23rTKj1gIerq3PDvIyKzR76vlp57h8CKRxKdF31rI-xz=w240-h480-rw');
 INSERT INTO GenerosPelicula (id_pelicula, id_genero) VALUES (1, 1);
 INSERT INTO IdiomasPelicula (id_pelicula, id_idioma) VALUES (1, 6), (1, 8), (1, 7);
 
@@ -167,7 +167,7 @@ INSERT INTO Cineastas (nombre, apellido, fecha_nacimiento, nacionalidad, biograf
 INSERT INTO RolesCineasta (id_cineasta, id_rol) VALUES (5, 4), (5, 8);
 INSERT INTO PeliculaCineasta (id_pelicula, id_cineasta) VALUES (1, 5); 
 INSERT INTO Peliculas (titulo, descripcion, calificacion, duracion, fecha_estreno, titulo_original, id_clasificacion, imagen)
-    VALUES ('El padrino', 'Don Vito Corleone, jefe de una de las cinco familias de la mafia de Nueva York, intenta sobrevivir y prosperar en medio de la violencia, la traición y la corrupción.', 9.2, 175, '1972-03-24', 'The Godfather', 1, 'https://m.media-amazon.com/images/M/MV5BY2ZiNzM3MWMtNmQzMy00MzU4LWFjNTUtOWFhN2M1NThkNjQ2XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX800_.jpg');
+    VALUES ('El padrino', 'Don Vito Corleone, jefe de una de las cinco familias de la mafia de Nueva York, intenta sobrevivir y prosperar en medio de la violencia, la traición y la corrupción.', 9.2, 175, '1972-03-24', 'The Godfather', 1, 'https://m.media-amazon.com/images/M/MV5BZmNiNzM4MTctODI5YS00MzczLWE2MzktNzY4YmNjYjA5YmY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg');
 INSERT INTO GenerosPelicula (id_pelicula, id_genero) VALUES (2, 1), (2, 2);
 INSERT INTO IdiomasPelicula (id_pelicula, id_idioma) VALUES (2, 6), (2, 8), (2, 7);
 
@@ -192,7 +192,7 @@ INSERT INTO RolesCineasta (id_cineasta, id_rol) VALUES (10, 4), (10, 1), (10, 3)
 INSERT INTO PeliculaCineasta (id_pelicula, id_cineasta) VALUES (2, 10);
 
 INSERT INTO Peliculas (titulo, descripcion, calificacion, duracion, fecha_estreno, titulo_original, id_clasificacion, imagen)
-    VALUES ('El caballero de la noche', 'Batman, Gordon y Harvey Dent se unen para enfrentar al caos desatado por un criminal conocido como el Joker, quien empuja a Gotham a la anarquía.', 9.0, 152, '2008-07-18', 'The Dark Knight', 2, 'https://m.media-amazon.com/images/M/MV5BNzg3YjExZTktOTk3ZS00ODQ1LTg1M2QtMzk2NzQ3NjQxOWUwXkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX1260_.jpg');
+    VALUES ('El caballero de la noche', 'Batman, Gordon y Harvey Dent se unen para enfrentar al caos desatado por un criminal conocido como el Joker, quien empuja a Gotham a la anarquía.', 9.0, 152, '2008-07-18', 'The Dark Knight', 2, 'https://m.media-amazon.com/images/M/MV5BN2U3NmZjMTYtY2JhOS00NzU4LWJkMDAtZjFmZjAyN2ZlMTMxXkEyXkFqcGc@._V1_.jpg');
 INSERT INTO GenerosPelicula (id_pelicula, id_genero) VALUES (3, 11), (3, 2), (3, 1);
 INSERT INTO IdiomasPelicula (id_pelicula, id_idioma) VALUES (3, 6), (3, 8), (3, 7);
 
@@ -216,7 +216,7 @@ INSERT INTO Cineastas (nombre, apellido, fecha_nacimiento, nacionalidad, naciona
 INSERT INTO RolesCineasta (id_cineasta, id_rol) VALUES (15, 4), (15, 1), (15, 3);
 INSERT INTO PeliculaCineasta (id_pelicula, id_cineasta) VALUES (3, 15);
 INSERT INTO Peliculas (titulo, descripcion, calificacion, duracion, fecha_estreno, titulo_original, id_clasificacion, imagen)
-    VALUES ('El padrino: Parte II', 'Michael Corleone expande su imperio criminal y mantiene el control de su familia, mientras se enfrenta a la traición y la venganza.', 9.0, 202, '1974-12-20', 'The Godfather: Part II', 1, 'https://m.media-amazon.com/images/M/MV5BODBkMzlhNDEtYjc2Mi00ZTU0LTk5YjktYmI3MTJiODQ3YmMyXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UY1975_.jpg');
+    VALUES ('El padrino: Parte II', 'Michael Corleone expande su imperio criminal y mantiene el control de su familia, mientras se enfrenta a la traición y la venganza.', 9.0, 202, '1974-12-20', 'The Godfather: Part II', 1, 'https://m.media-amazon.com/images/M/MV5BMjQ5MzQxZTEtMmE1Yy00NjZlLTk5ODItNjI3MWIxMjk1M2U5XkEyXkFqcGc@._V1_.jpg');
 INSERT INTO GenerosPelicula (id_pelicula, id_genero) VALUES (4, 1), (4, 2);
 INSERT INTO IdiomasPelicula (id_pelicula, id_idioma) VALUES (4, 6), (4, 8), (4, 7);
 
@@ -231,7 +231,7 @@ INSERT INTO RolesCineasta (id_cineasta, id_rol) VALUES (17, 4), (17, 1), (17, 3)
 INSERT INTO PeliculaCineasta (id_pelicula, id_cineasta) VALUES (4, 17);
 
 INSERT INTO Peliculas (titulo, descripcion, calificacion, duracion, fecha_estreno, titulo_original, id_clasificacion, imagen)
-    VALUES ('12 hombres en pugna', 'Un jurado debe decidir si un joven es culpable de asesinato, pero un miembro disiente y trata de convencer a los demás de su inocencia.', 8.9, 96, '1957-04-10', '12 Angry Men', 4, 'https://m.media-amazon.com/images/M/MV5BOTM1OTNkZGQtMjkwMy00MDhhLTk5N2QtNmU5OTU5OWY3YWRhXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX839_.jpg');
+    VALUES ('12 hombres en pugna', 'Un jurado debe decidir si un joven es culpable de asesinato, pero un miembro disiente y trata de convencer a los demás de su inocencia.', 8.9, 96, '1957-04-10', '12 Angry Men', 4, 'https://m.media-amazon.com/images/M/MV5BNDk0OTFlNTQtYTdmYi00M2ZjLTk0ZGEtZTNlMTViODllOGRhXkEyXkFqcGc@._V1_.jpg');
 INSERT INTO GenerosPelicula (id_pelicula, id_genero) VALUES (5, 1), (5, 2);
 INSERT INTO IdiomasPelicula (id_pelicula, id_idioma) VALUES (5, 6), (5, 8), (5, 7);
 
@@ -256,7 +256,7 @@ INSERT INTO RolesCineasta (id_cineasta, id_rol) VALUES (22, 4), (22, 1), (22, 3)
 INSERT INTO PeliculaCineasta (id_pelicula, id_cineasta) VALUES (5, 22);
 
 INSERT INTO Peliculas (titulo, descripcion, calificacion, duracion, fecha_estreno, titulo_original, id_clasificacion, imagen)
-    VALUES ('La lista de Schindler', 'Oskar Schindler gasta toda su fortuna para salvar a más de mil judíos de ser asesinados en Auschwitz durante la Segunda Guerra Mundial.', 8.9, 195, '1993-12-15', 'Schindler''s List', 1, 'https://m.media-amazon.com/images/M/MV5BOWRmZmVmMGItODgwNS00Y2VjLWEyZjktOWRjNDVhMzkyY2UwXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX960_.jpg');
+    VALUES ('La lista de Schindler', 'Oskar Schindler gasta toda su fortuna para salvar a más de mil judíos de ser asesinados en Auschwitz durante la Segunda Guerra Mundial.', 8.9, 195, '1993-12-15', 'Schindler''s List', 1, 'https://m.media-amazon.com/images/M/MV5BZTkzMjIwOWUtYmRkZS00ZDdjLThiOTQtNjk4ZmM5NTY1YWI1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg');
 INSERT INTO GenerosPelicula (id_pelicula, id_genero) VALUES (6, 6), (6, 1), (6, 15);
 INSERT INTO IdiomasPelicula (id_pelicula, id_idioma) VALUES (6, 6), (6, 8), (6, 7);
 
@@ -285,7 +285,7 @@ INSERT INTO RolesCineasta (id_cineasta, id_rol) VALUES (28, 4), (28, 1), (28, 3)
 INSERT INTO PeliculaCineasta (id_pelicula, id_cineasta) VALUES (6, 28);
 
 INSERT INTO Peliculas (titulo, descripcion, calificacion, duracion, fecha_estreno, titulo_original, id_clasificacion, imagen)
-    VALUES ('El señor de los anillos: El retorno del rey', 'Los ejércitos de Sauron han atacado Minas Tirith, la capital de Gondor. Nunca antes ha sido tan importante que Frodo y Sam lleguen a Mordor.', 8.9, 201, '2003-12-17', 'The Lord of the Rings: The Return of the King', 2, 'https://m.media-amazon.com/images/M/MV5BMGI3ODM0NTktZDcwMy00OWMzLWI5OGUtOTUzZTM1MzllOWQ1XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UX837_.jpg');
+    VALUES ('El señor de los anillos: El retorno del rey', 'Los ejércitos de Sauron han atacado Minas Tirith, la capital de Gondor. Nunca antes ha sido tan importante que Frodo y Sam lleguen a Mordor.', 8.9, 201, '2003-12-17', 'The Lord of the Rings: The Return of the King', 2, 'https://pics.filmaffinity.com/El_seanor_de_los_anillos_El_retorno_del_rey-164432989-large.jpg');
 INSERT INTO GenerosPelicula (id_pelicula, id_genero) VALUES (7, 11), (7, 5), (7, 1);
 INSERT INTO IdiomasPelicula (id_pelicula, id_idioma) VALUES (7, 6), (7, 8), (7, 7);
 
@@ -318,7 +318,7 @@ INSERT INTO RolesCineasta (id_cineasta, id_rol) VALUES (35, 4), (35, 1), (35, 3)
 INSERT INTO PeliculaCineasta (id_pelicula, id_cineasta) VALUES (7, 35);
 
 INSERT INTO Peliculas (titulo, descripcion, calificacion, duracion, fecha_estreno, titulo_original, id_clasificacion, imagen)
-    VALUES ('Tiempos violentos', 'Dos matones, un boxeador en decadencia y un gánster, se ven envueltos en una trama de traición y venganza en Los Ángeles de 1992.', 8.9, 154, '1994-10-14', 'Pulp Fiction', 1, 'https://m.media-amazon.com/images/M/MV5BMzQ0MjljZDUtOWY3YS00NDY2LThmMjctOTdhNjY2NjQ1OWU3XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_FMjpg_UY1845_.jpg');
+    VALUES ('Tiempos violentos', 'Dos matones, un boxeador en decadencia y un gánster, se ven envueltos en una trama de traición y venganza en Los Ángeles de 1992.', 8.9, 154, '1994-10-14', 'Pulp Fiction', 1, 'https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg');
 INSERT INTO GenerosPelicula (id_pelicula, id_genero) VALUES (8, 1), (8, 2);
 INSERT INTO IdiomasPelicula (id_pelicula, id_idioma) VALUES (8, 6), (8, 8), (8, 7);
 
@@ -343,7 +343,7 @@ INSERT INTO RolesCineasta (id_cineasta, id_rol) VALUES (40, 4), (40, 1), (40, 3)
 INSERT INTO PeliculaCineasta (id_pelicula, id_cineasta) VALUES (8, 40);
 
 INSERT INTO Peliculas (titulo, descripcion, calificacion, duracion, fecha_estreno, titulo_original, id_clasificacion, imagen)
-    VALUES ('El señor de los anillos: La comunidad del anillo', 'Un joven hobbit llamado Frodo Bolsón es encargado con una tarea épica: destruir un anillo mágico de poder antes de que caiga en manos del malvado Sauron.', 8.8, 178, '2001-12-19', 'The Lord of the Rings: The Fellowship of the Ring', 2, 'https://m.media-amazon.com/images/M/MV5BMzgyNjdjOWMtMjAyYy00NzQ4LWIwYTQtZDk2ZDQzYWVlN2IwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_FMjpg_UX720_.jpg');
+    VALUES ('El señor de los anillos: La comunidad del anillo', 'Un joven hobbit llamado Frodo Bolsón es encargado con una tarea épica: destruir un anillo mágico de poder antes de que caiga en manos del malvado Sauron.', 8.8, 178, '2001-12-19', 'The Lord of the Rings: The Fellowship of the Ring', 2, 'https://es.web.img3.acsta.net/medias/nmedia/18/89/67/45/20061512.jpg');
 INSERT INTO GenerosPelicula (id_pelicula, id_genero) VALUES (9, 11), (9, 5), (9, 1);
 INSERT INTO IdiomasPelicula (id_pelicula, id_idioma) VALUES (9, 6), (9, 8), (9, 7);
 
@@ -354,7 +354,7 @@ INSERT INTO RolesCineasta (id_cineasta, id_rol) VALUES (41, 4), (41, 1), (41, 3)
 INSERT INTO PeliculaCineasta (id_pelicula, id_cineasta) VALUES (9, 41);
 
 INSERT INTO Peliculas (titulo, descripcion, calificacion, duracion, fecha_estreno, titulo_original, id_clasificacion, imagen)
-    VALUES ('El bueno, el malo y el feo', 'Tres hombres buscan un tesoro escondido en un cementerio, pero cada uno tiene su propio plan para quedarse con él.', 8.8, 161, '1966-12-23', 'Il buono, il brutto, il cattivo', 1, 'https://m.media-amazon.com/images/M/MV5BMTUxYmY2NTYtNzdiMi00YjdkLThkNjAtNTIwNWMwYjA4MzUyXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX960_.jpg');
+    VALUES ('El bueno, el malo y el feo', 'Tres hombres buscan un tesoro escondido en un cementerio, pero cada uno tiene su propio plan para quedarse con él.', 8.8, 161, '1966-12-23', 'Il buono, il brutto, il cattivo', 1, 'https://m.media-amazon.com/images/M/MV5BMmRmZTIxNTQtMjdjYi00MGM2LWFkNzctNjM5MWM2MmQxYjIyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg');
 INSERT INTO GenerosPelicula (id_pelicula, id_genero) VALUES (10, 1), (10, 5), (10, 17);
 INSERT INTO IdiomasPelicula (id_pelicula, id_idioma) VALUES (10, 6), (10, 8), (10, 7);
 
